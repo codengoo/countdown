@@ -10,6 +10,12 @@
 - Icon set: https://tabler.io/icons
 - Database visualize: https://drawsql.app
 
+## Sign in feature:
+- [Discord](https://discord.com/developers/applications)
+- [Google](https://console.cloud.google.com/apis/dashboard)
+- [Facebook](https://developers.facebook.com/apps/?show_reminder=true)
+- [Github](https://github.com/settings/apps)
+
 ## Backend TechStack
 
 - Database: [MongoDB](https://www.mongodb.com/), [Redis](https://redis.io/)

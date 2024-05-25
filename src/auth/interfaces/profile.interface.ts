@@ -1,6 +1,10 @@
-export interface AuthProfile {
+interface AuthProfileBase {
     id: string;
-    displayName: string;
+    provider: "google" | "facebook" | "github" | "discord";
+}
+
+export interface AuthProfile extends AuthProfileBase {
+    displayName?: string;
     name: {
         familyName: string;
         givenName: string;
@@ -12,5 +16,10 @@ export interface AuthProfile {
     photos: {
         value: string;
     }[],
-    provider: "google" | "facebook";
+}
+
+export interface DiscordAuthProfile extends AuthProfileBase {
+    username: string,
+    email: string,
+    avatar: string,
 }
