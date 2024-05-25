@@ -1,0 +1,13 @@
+name: countdown-database
+
+services:
+  mongo:
+    image: mongo
+    container_name: countdown-db-mongo
+    restart: always
+    ports:
+      - "27017:27017"
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=rootPassXXX
+    command: mongod
