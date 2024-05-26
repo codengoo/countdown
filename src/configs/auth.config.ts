@@ -18,6 +18,9 @@ export type AuthEnvType = {
 
     spotifyClientId: string;
     spotifySecretKey: string;
+
+    linkedinClientId: string;
+    linkedinSecretKey: string;
 }
 
 export default registerAs('auth', () => ({
@@ -33,4 +36,6 @@ export default registerAs('auth', () => ({
     tiktokSecretKey: process.env.TIKTOK_SECRET_KEY,
     spotifyClientId: process.env.SPOTIFY_CLIENT_ID,
     spotifySecretKey: process.env.SPOTIFY_SECRET_KEY,
+    linkedinClientId: process.env.LINKEDIN_CLIENT_ID,
+    linkedinSecretKey: process.env.LINKEDIN_SECRET_KEY,
 }) satisfies AuthEnvType)

@@ -19,6 +19,7 @@
 - [Facebook](https://developers.facebook.com/apps/?show_reminder=true)
 - [Github](https://github.com/settings/apps)
 - [Spotify](https://developer.spotify.com/dashboard)
+- [LinkedIn](https://www.linkedin.com/developers/apps)
 
 ## Backend TechStack
 

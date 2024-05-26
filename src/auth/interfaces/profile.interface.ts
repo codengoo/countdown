@@ -1,6 +1,6 @@
 interface AuthProfileBase {
     id: string;
-    provider: "google" | "facebook" | "github" | "discord" | "tiktok" | "spotify";
+    provider: "google" | "facebook" | "github" | "discord" | "tiktok" | "spotify" | "linkedin";
     _json: any,
     _raw: string,
 }
@@ -22,8 +22,10 @@ export interface AuthProfile extends AuthProfileBase {
 
 export interface DiscordAuthProfile extends AuthProfileBase {
     username: string,
+    displayName: string
     email: string,
     avatar: string,
+    picture: string
 }
 
 export interface SpotifyAuthProfile extends AuthProfileBase {
