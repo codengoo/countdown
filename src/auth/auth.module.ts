@@ -4,6 +4,7 @@ import { FacebookModule } from './facebook/facebook.module';
 import { GithubModule } from './github/github.module';
 import { DiscordModule } from './discord/discord.module';
 import { TiktokModule } from './tiktok/tiktok.module';
+import { SpotifyModule } from './spotify/discord.module';
 
 @Module({
     imports: [
@@ -11,7 +12,8 @@ import { TiktokModule } from './tiktok/tiktok.module';
         FacebookModule,
         GithubModule,
         DiscordModule,
-        TiktokModule
+        TiktokModule,
+        SpotifyModule
     ]
 })
 export class AuthModule { }

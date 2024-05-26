@@ -9,6 +9,7 @@
 - Logo builder: https://icon.kitchen
 - Icon set: https://tabler.io/icons
 - Database visualize: https://drawsql.app
+- Expose port: https://ngrok.com/
 
 ## Sign in feature:
 
@@ -17,6 +18,7 @@
 - [Tiktok](https://developers.tiktok.com/app)
 - [Facebook](https://developers.facebook.com/apps/?show_reminder=true)
 - [Github](https://github.com/settings/apps)
+- [Spotify](https://developer.spotify.com/dashboard)
 
 ## Backend TechStack
 

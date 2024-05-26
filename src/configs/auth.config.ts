@@ -15,6 +15,9 @@ export type AuthEnvType = {
 
     tiktokClientId: string;
     tiktokSecretKey: string;
+
+    spotifyClientId: string;
+    spotifySecretKey: string;
 }
 
 export default registerAs('auth', () => ({
@@ -28,4 +31,6 @@ export default registerAs('auth', () => ({
     discordSecretKey: process.env.DISCORD_SECRET_KEY,
     tiktokClientId: process.env.TIKTOK_CLIENT_ID,
     tiktokSecretKey: process.env.TIKTOK_SECRET_KEY,
+    spotifyClientId: process.env.SPOTIFY_CLIENT_ID,
+    spotifySecretKey: process.env.SPOTIFY_SECRET_KEY,
 }) satisfies AuthEnvType)
