@@ -11,8 +11,10 @@
 - Database visualize: https://drawsql.app
 
 ## Sign in feature:
+
 - [Discord](https://discord.com/developers/applications)
 - [Google](https://console.cloud.google.com/apis/dashboard)
+- [Tiktok](https://developers.tiktok.com/app)
 - [Facebook](https://developers.facebook.com/apps/?show_reminder=true)
 - [Github](https://github.com/settings/apps)
 

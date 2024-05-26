@@ -1,6 +1,8 @@
 interface AuthProfileBase {
     id: string;
     provider: "google" | "facebook" | "github" | "discord";
+    _json: any,
+    _raw: string,
 }
 
 export interface AuthProfile extends AuthProfileBase {
