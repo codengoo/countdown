@@ -21,6 +21,12 @@ export type AuthEnvType = {
 
     linkedinClientId: string;
     linkedinSecretKey: string;
+
+    microsoftClientId: string;
+    microsoftSecretKey: string;
+
+    twitchClientId: string;
+    twitchSecretKey: string;
 }
 
 export default registerAs('auth', () => ({
@@ -38,4 +44,9 @@ export default registerAs('auth', () => ({
     spotifySecretKey: process.env.SPOTIFY_SECRET_KEY,
     linkedinClientId: process.env.LINKEDIN_CLIENT_ID,
     linkedinSecretKey: process.env.LINKEDIN_SECRET_KEY,
+    microsoftClientId: process.env.MICROSOFT_CLIENT_ID,
+    microsoftSecretKey: process.env.MICROSOFT_SECRET_KEY,
+    twitchClientId: process.env.TWITCH_CLIENT_ID,
+    twitchSecretKey: process.env.TWITCH_SECRET_KEY,
+
 }) satisfies AuthEnvType)

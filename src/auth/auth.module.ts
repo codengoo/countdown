@@ -6,6 +6,8 @@ import { DiscordModule } from './discord/discord.module';
 import { TiktokModule } from './tiktok/tiktok.module';
 import { SpotifyModule } from './spotify/spotify.module';
 import { LinkedinModule } from './linkedin/linkedin.module';
+import { MicrosoftModule } from './microsoft/microsoft.module';
+import { TwitchModule } from './twitch/twitch.module';
 
 @Module({
     imports: [
@@ -15,7 +17,9 @@ import { LinkedinModule } from './linkedin/linkedin.module';
         DiscordModule,
         TiktokModule,
         SpotifyModule,
-        LinkedinModule
+        LinkedinModule,
+        MicrosoftModule,
+        TwitchModule
     ]
 })
 export class AuthModule { }

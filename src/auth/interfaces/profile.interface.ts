@@ -1,6 +1,6 @@
 interface AuthProfileBase {
     id: string;
-    provider: "google" | "facebook" | "github" | "discord" | "tiktok" | "spotify" | "linkedin";
+    provider: "google" | "facebook" | "github" | "discord" | "tiktok" | "spotify" | "linkedin" | "microsoft";
     _json: any,
     _raw: string,
 }

@@ -15,11 +15,15 @@
 
 - [Discord](https://discord.com/developers/applications)
 - [Google](https://console.cloud.google.com/apis/dashboard)
-- [Tiktok](https://developers.tiktok.com/app)
+- [Tiktok](https://developers.tiktok.com/app) Xác minh
 - [Facebook](https://developers.facebook.com/apps/?show_reminder=true)
 - [Github](https://github.com/settings/apps)
 - [Spotify](https://developer.spotify.com/dashboard)
 - [LinkedIn](https://www.linkedin.com/developers/apps)
+- [Microsoft](https://portal.azure.com/) >> My Directory >> App Registration >> [All Applications](https://go.microsoft.com/fwlink/?linkid=2083908)
+- [Pinterest](https://developers.pinterest.com/apps) Xác minh
+- [Twitch](https://dev.twitch.tv/console/apps)
+
 
 ## Backend TechStack
 
