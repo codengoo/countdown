@@ -23,6 +23,7 @@
 - [Microsoft](https://portal.azure.com/) >> My Directory >> App Registration >> [All Applications](https://go.microsoft.com/fwlink/?linkid=2083908)
 - [Pinterest](https://developers.pinterest.com/apps) Xác minh
 - [Twitch](https://dev.twitch.tv/console/apps)
+- [Reddit](https://www.reddit.com/prefs/apps/)
 
 
 ## Backend TechStack

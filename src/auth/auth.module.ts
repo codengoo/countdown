@@ -8,6 +8,7 @@ import { SpotifyModule } from './spotify/spotify.module';
 import { LinkedinModule } from './linkedin/linkedin.module';
 import { MicrosoftModule } from './microsoft/microsoft.module';
 import { TwitchModule } from './twitch/twitch.module';
+import { RedditModule } from './reddit/reddit.module';
 
 @Module({
     imports: [
@@ -19,7 +20,8 @@ import { TwitchModule } from './twitch/twitch.module';
         SpotifyModule,
         LinkedinModule,
         MicrosoftModule,
-        TwitchModule
+        TwitchModule,
+        RedditModule
     ]
 })
 export class AuthModule { }

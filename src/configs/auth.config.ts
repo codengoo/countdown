@@ -27,6 +27,9 @@ export type AuthEnvType = {
 
     twitchClientId: string;
     twitchSecretKey: string;
+
+    redditClientId: string;
+    redditSecretKey: string;
 }
 
 export default registerAs('auth', () => ({
@@ -48,5 +51,7 @@ export default registerAs('auth', () => ({
     microsoftSecretKey: process.env.MICROSOFT_SECRET_KEY,
     twitchClientId: process.env.TWITCH_CLIENT_ID,
     twitchSecretKey: process.env.TWITCH_SECRET_KEY,
+    redditClientId: process.env.REDDIT_CLIENT_ID,
+    redditSecretKey: process.env.REDDIT_SECRET_KEY,
 
 }) satisfies AuthEnvType)
