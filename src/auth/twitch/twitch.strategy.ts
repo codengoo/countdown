@@ -26,7 +26,6 @@ export class TwitchStrategy extends PassportStrategy(Strategy, 'twitch') {
         done: (err: any, user: any, info?: any) => void
     ): Promise<any> {
         const { id, username, email, avatar } = profile
-        console.log(profile);
         
         const user = {
             accessToken,

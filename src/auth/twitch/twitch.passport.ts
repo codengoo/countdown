@@ -53,8 +53,6 @@ export class Strategy extends _Strategy {
                 accessToken,
                 function (err, body, _res) {
                     if (err) {
-                        console.log(err);
-
                         return done(
                             new InternalOAuthError('failed to fetch user profile', err)
                         );
